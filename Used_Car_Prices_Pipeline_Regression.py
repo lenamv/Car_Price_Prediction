@@ -29,10 +29,19 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 
 from sklearn.impute import SimpleImputer
 from sklearn.compose import ColumnTransformer
+from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import Ridge, RidgeCV
+from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.svm import SVR
 import pickle
 
-###################################### Load data #################################################
+# Set matplotlib options
+get_ipython().run_line_magic('matplotlib', 'inline')
+color = '#1F77B4'    # Color is used in barcharts
+pd.set_option('display.max_columns', 100)
+pd.set_option('display.max_rows', 200)
+fontsize=16     # Font size of a  figure title
+
 test_data = '2. Prepared Data/public_cars.csv'
 prediction_data = '2. Prepared Data/pred_cars.csv'
 df = pd.read_csv(test_data)
@@ -44,9 +53,12 @@ print(df.shape)
 
 print("The test dataset rows: {} , columns: {} ".format(df_pred.shape[0],df_pred.shape[1]))
 print(df_pred.shape)
+
+
 print(df.info())
 
-###################################### Preprocessing data ######################################
+
+# ## Preprocessing data
 
 # Check duplicated rows
 duplicated_rows = df.duplicated().sum()
@@ -73,7 +85,9 @@ print('Dataset: {}'.format(df.shape))
 # Find missing values 
 print('\nMissing values: {}'.format(df.isnull().sum().sum()))
 
+
 # ### Dealing with outliers
+
 # Drop electric cars
 electric_cars = df['engine_type'] == 'electric'
 electric = df[electric_cars]
@@ -121,6 +135,7 @@ max_duration_listed = df['duration_listed'].max()
 mask_duration_listed = (df['duration_listed'] == max_duration_listed)
 
 outliers = df[(mask_price | mask_odometer_value | mask_produced_price | mask_year_produced_min | mask_engine | mask_duration_listed)]
+#outliers
 
 # Save the rows with extreme outliers to csv file
 fl = "4. Analysis/used_car_prices_extreme_outliers.csv"
@@ -133,7 +148,7 @@ print('Drop outliers :{}'.format(len(outliers)))
 print("Dataset: {}".format(df.shape))
 
 
-###################################### Feature engineering ######################################
+# ### Feature engineering
 
 # Create 'name' variable to combine manufacture and model names
 columns_strip = ['manufacturer_name', 'model_name']
@@ -172,7 +187,7 @@ df['other_features']=df[features_list].sum(axis=1)
 df['price_usd'] = df['price_usd'].apply(lambda x: round(x,-2))
 
 
-###################################### Feature selection ######################################
+# ### Feature selection
 
 # Define predictor and target variables
 features =[ 'manufacturer_name', 'has_warranty', 'state', 'drivetrain', 'transmission', 'name',
@@ -187,7 +202,9 @@ data = df[features+ [target]].copy()
 print('Dataset: {}'.format(data.shape))
 
 
-###################################### Create pipeline ######################################
+# ## Model
+
+# ### Create pipeline
 
 # Copy the initial dataset before transformation
 df_origin = data.copy()
@@ -247,13 +264,16 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_
 
 # Transform the target variable
 power_tr = PowerTransformer(method='yeo-johnson')
-y_train = power_tr.fit_transform(y_train)
-y_test = power_tr.fit_transform(y_test)
+power_tr.fit(y_train)
+
+y_train = power_tr.transform(y_train)
+y_test = power_tr.transform(y_test)
 
 
-###################################### Model ######################################
+# ### Model
 
-#################################### SVR model ####################################
+
+######################################### SVR model ######################################
 # Create an instance of a model
 model = SVR(C=1)
 print(model)
@@ -272,16 +292,21 @@ print('Score: {}'.format(score))
 mse = cross_val_score(pipe, X_test, y_test, cv=10, scoring ='neg_mean_squared_error' ).mean()
 print('MSE: {}'.format(mse))
 
-
-###################################### Save the model ######################################
+# Save the pipeline
 model_path = '5. Insights/Models/used_car_prices_model.pickle'
 with open(model_path, 'wb') as f:
-    pickle.dump(model, f)
+    pickle.dump(pipe, f)
 
 print('The file {} is saved.'.format(model_path))
 
+# Save the PorewTransformer object for the inverse target transformation
+transformer_path = '5. Insights/Models/used_car_prices_target_transformation.pickle'
+with open(transformer_path, 'wb') as f:
+    pickle.dump(power_tr, f)
+print('The file {} is saved.'.format(transformer_path))
 
-###################################### Ptrediction ######################################
+
+# ## Ptrediction 
 
 # Load the data
 prediction_data = '2. Prepared Data/pred_cars.csv'
@@ -293,10 +318,15 @@ with open(model_path, 'rb') as f:
     regression_model_loaded = pickle.load(f)
 print('Regression model {} is loaded.'.format(regression_model_loaded))
 
-
-###################################### Preprocess the data ######################################
+# Load the PorewTransformer object for the inverse target transformation
+transformer_path = '5. Insights/Models/used_car_prices_target_transformation.pickle'
+with open(transformer_path, 'rb') as f:
+    transformer_loaded = pickle.load(f)
+print('Transformer {} is loaded.'.format(transformer_loaded))
 
 print(df.info())
+
+# ### Preprocess the data
 
 # Create 'name' variable to combine manufacture and model names
 columns_strip = ['manufacturer_name', 'model_name']
@@ -331,32 +361,33 @@ features_list = ['feature_0','feature_1', 'feature_2', 'feature_3', 'feature_4',
 df['other_features']=df[features_list].sum(axis=1)
 
 
-###################################### Prediction of car prices ######################################
+# ### Prediction of car prices
 
-# Predict car prices from prediction file
-model = regression_model_loaded
-
-# Define preprocessing pipeline
-pipe = Pipeline(steps=[('preprocessor', preprocessor),
-                       ('model', model)])  
 # Make prediction using the pipeline
-prediction = pipe.predict(df[features])
-prediction
+prediction = regression_model_loaded.predict(df[features])
 
 # Transform predicted price to get the rounded car price in dollars
-y_predict_price = power_tr.inverse_transform(prediction.reshape(-1,1))
+y_predict_price = transformer_loaded.inverse_transform(prediction.reshape(-1,1))
+# Round car price to hundred
 y_predict_price_round = np.round(y_predict_price,-2)
-
-# Form a dataframe with predicted results
+# Create a dataframe with results
 results = pd.DataFrame( {'Predicted':y_predict_price.reshape(-1),
                          'Predicted rounded':y_predict_price_round.reshape(-1)},
                           index=df.index)
+
 # Form a dataframe with car information and predicted prices
 prediction_results = df.join(results)
 
 # Save car information and predicted prices to csv file
-fl = "5. Insights/Prediction/used_car_prices_predicted_price.csv"
+fl = "5. Insights/Prediction/used_car_prices_prediction_data_predicted_price.csv"
 prediction_results.to_csv(fl, index=False)
+
+# Save predicted prices to csv file
+fl = "5. Insights/Prediction/used_car_prices_predicted_price.csv"
+results.to_csv(fl, index=False)
+
+# Predicted car prices
+print(results)
 
 
 
