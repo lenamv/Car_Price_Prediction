@@ -1,76 +1,76 @@
-manufacturer_name,model_name,transmission,color,odometer_value,year_produced,engine_fuel,engine_has_gas,engine_type,engine_capacity,body_type,has_warranty,state,drivetrain,feature_0,feature_1,feature_2,feature_3,feature_4,feature_5,feature_6,feature_7,feature_8,feature_9,duration_listed,price_usd
-BMW,320,automatic,black,11000,2019,diesel,False,diesel,2.0,sedan,False,owned,all,True,False,False,False,False,False,False,False,False,False,56.0,42800.0
-Land Rover,Range Rover Sport,automatic,white,61000,2015,diesel,False,diesel,3.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,143.0,49950.0
-Fiat,500,automatic,orange,49000,2014,electric,False,electric,,hatchback,False,owned,front,False,False,False,True,False,True,False,True,False,True,11.0,16000.0
-Skoda,Kodiaq,automatic,brown,0,2019,diesel,False,diesel,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,25.0,38829.08
-Skoda,Kodiaq,automatic,blue,0,2019,diesel,False,diesel,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,41850.99
-Skoda,Kodiaq,automatic,brown,0,2019,diesel,False,diesel,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,39178.6
-Skoda,Kodiaq,automatic,silver,0,2019,diesel,False,diesel,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,38638.91
-Volkswagen,Touareg,automatic,black,33000,2017,diesel,False,diesel,3.0,suv,True,owned,all,False,False,True,True,True,True,True,True,True,True,2.0,43999.0
-Skoda,Kodiaq,automatic,other,0,2019,gasoline,False,gasoline,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,25.0,39272.5
-BMW,X5,automatic,white,167000,2015,diesel,False,diesel,3.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,46.0,41500.0
-BMW,X6,automatic,red,50000,2015,diesel,False,diesel,3.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,25.0,49900.0
-Skoda,Kodiaq,automatic,other,0,2019,gasoline,False,gasoline,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,39288.15
-BMW,320,automatic,blue,0,2019,diesel,False,diesel,2.0,sedan,True,new,all,False,False,False,True,False,True,False,False,True,True,11.0,47000.0
-BMW,530,automatic,white,80000,2017,gasoline,False,gasoline,2.0,sedan,False,owned,rear,False,False,True,True,False,True,True,True,True,True,18.0,39000.0
-Honda,CR-V,automatic,black,22000,2018,gasoline,False,gasoline,2.4,suv,True,owned,all,False,False,False,True,False,True,True,True,True,True,11.0,38000.0
-Skoda,Kodiaq,automatic,green,0,2019,diesel,False,diesel,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,38829.08
-Mercedes-Benz,GLE350,automatic,black,122010,2015,diesel,False,diesel,3.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,97.0,43913.46
-Mercedes-Benz,GL400,automatic,grey,87000,2014,gasoline,False,gasoline,3.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,141.0,42000.0
-Audi,A8,automatic,black,79146,2014,gasoline,False,gasoline,4.0,sedan,False,owned,all,False,True,False,True,True,True,True,True,True,True,30.0,39555.0
-BMW,X6,automatic,grey,59000,2015,diesel,False,diesel,3.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,89.0,50000.0
-Audi,Q7,automatic,brown,131939,2015,diesel,False,diesel,3.0,suv,False,owned,all,False,True,True,True,True,True,False,True,True,True,94.0,39900.0
-BMW,i3,automatic,other,67000,2018,electric,False,electric,,liftback,False,owned,rear,False,True,True,True,True,True,True,True,True,True,57.0,39999.0
-Fiat,500,automatic,orange,27000,2013,electric,False,electric,,hatchback,False,owned,front,False,True,False,True,True,True,False,True,True,True,77.0,14900.0
-BMW,X3,automatic,blue,0,2019,gasoline,False,gasoline,2.0,suv,False,new,all,True,False,False,False,False,False,False,False,False,False,40.0,47325.28
-Skoda,Kodiaq,automatic,white,0,2019,gasoline,False,gasoline,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,25.0,40353.79
-Mercedes-Benz,GL63,automatic,white,160852,2013,gasoline,False,gasoline,5.5,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,32.0,47000.0
-BMW,X5,automatic,grey,177234,2014,diesel,False,diesel,3.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,59.0,39900.0
-Nissan,Leaf,automatic,black,84500,2013,electric,False,electric,,hatchback,False,owned,front,False,True,False,True,False,True,True,True,True,True,58.0,15500.0
-Jaguar,F-Pace,automatic,black,24000,2016,diesel,False,diesel,2.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,25.0,42000.0
-Mercedes-Benz,GLE300,automatic,black,44513,2016,diesel,False,diesel,2.1,suv,False,owned,all,False,False,False,True,False,True,False,True,True,True,3.0,39900.0
-Mercedes-Benz,GLE350,automatic,black,65700,2015,gasoline,False,gasoline,3.5,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,18.0,42900.0
-Toyota,Land Cruiser,automatic,white,50100,2017,diesel,False,diesel,2.8,suv,True,owned,all,False,False,True,True,True,True,True,True,True,True,11.0,43500.0
-Nissan,Leaf,automatic,white,50000,2014,electric,False,electric,,hatchback,False,owned,front,False,True,False,False,False,True,False,True,True,False,18.0,12900.0
-Skoda,Superb,automatic,blue,0,2019,gasoline,False,gasoline,2.0,sedan,True,new,front,True,False,False,False,False,False,False,False,False,False,0.0,44947.83
-Audi,A8,automatic,black,105428,2015,gasoline,False,gasoline,3.0,sedan,False,owned,all,False,True,True,True,True,True,True,True,True,True,34.0,37900.0
-Skoda,Kodiaq,automatic,green,0,2019,gasoline,False,gasoline,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,40039.83
-Land Rover,Range Rover Sport,automatic,grey,130000,2013,gasoline,False,gasoline,3.0,suv,False,owned,all,True,False,False,False,False,False,False,False,False,False,81.0,42000.0
-BMW,X5,automatic,black,60000,2016,diesel,False,diesel,4.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,34.0,45000.0
-Jeep,Renegade,automatic,grey,0,2017,gasoline,False,gasoline,2.4,suv,False,new,all,False,False,False,True,True,True,False,False,True,True,839.0,40266.0
-Skoda,Kodiaq,automatic,green,0,2019,gasoline,False,gasoline,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,39978.66
-Mercedes-Benz,CLS400,automatic,grey,41000,2017,gasoline,False,gasoline,3.0,sedan,False,owned,all,False,True,True,True,True,True,True,True,True,True,42.0,48000.0
-Mini,Countryman,automatic,white,10770,2018,gasoline,False,gasoline,1.5,suv,False,owned,front,False,True,True,True,False,True,False,True,True,True,60.0,38504.07
-Skoda,Kodiaq,automatic,silver,0,2019,diesel,False,diesel,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,39228.4
-Hyundai,Santa Fe,automatic,black,0,2018,diesel,False,diesel,2.2,suv,False,new,all,False,True,False,True,True,True,True,True,True,True,16.0,45954.66
-BMW,X5,automatic,black,125653,2014,diesel,False,diesel,3.0,suv,False,owned,all,False,True,False,True,True,True,True,True,True,True,115.0,39500.0
-Skoda,Kodiaq,automatic,brown,0,2019,diesel,False,diesel,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,3.0,38186.47
-Mercedes-Benz,E63 AMG,automatic,white,60000,2013,gasoline,False,gasoline,5.5,sedan,False,owned,all,False,True,True,True,True,True,True,True,True,True,252.0,39900.0
-Mercedes-Benz,E400,automatic,black,54000,2016,gasoline,False,gasoline,3.0,sedan,False,owned,all,False,True,True,True,True,True,True,True,True,True,23.0,49000.0
-Skoda,Kodiaq,automatic,silver,0,2019,gasoline,False,gasoline,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,38223.47
-Mercedes-Benz,V220,automatic,black,99000,2015,diesel,False,diesel,2.2,minibus,False,owned,all,False,True,True,True,True,True,True,True,True,True,142.0,48182.68
-Mazda,CX-9,automatic,silver,4600,2018,gasoline,False,gasoline,2.5,suv,False,owned,all,False,True,False,True,True,True,True,True,True,True,83.0,39500.0
-BMW,X5,automatic,black,110306,2015,diesel,False,diesel,3.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,37.0,45900.0
-Land Rover,Range Rover Sport,automatic,white,91180,2013,diesel,False,diesel,3.0,suv,False,owned,all,True,False,False,False,False,False,False,False,False,False,46.0,47250.0
-Jeep,Wrangler,mechanical,grey,0,2016,diesel,False,diesel,2.8,suv,False,new,all,False,True,False,False,False,False,False,True,True,True,252.0,43000.0
-Mercedes-Benz,E220,automatic,black,67711,2017,diesel,False,diesel,2.0,sedan,False,owned,all,False,True,True,True,False,True,False,True,True,True,97.0,38410.51
-Mazda,CX-9,automatic,grey,14000,2018,gasoline,False,gasoline,2.5,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,123.0,39457.46
-Porsche,Macan,automatic,black,81500,2016,diesel,False,diesel,3.0,suv,False,owned,all,False,True,True,True,True,True,False,True,True,True,355.0,47900.0
-BMW,X6,automatic,white,140000,2015,diesel,False,diesel,3.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,31.0,41750.0
-Mercedes-Benz,V250,automatic,grey,136900,2015,diesel,False,diesel,2.2,minivan,False,owned,all,False,True,False,True,True,True,True,True,True,True,89.0,45000.0
-Audi,Q7,automatic,brown,100000,2014,diesel,False,diesel,3.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,480.0,46000.0
-Mercedes-Benz,GL500,automatic,silver,46000,2013,gasoline,False,gasoline,4.7,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,140.0,41850.0
-Mini,Countryman,automatic,grey,0,2018,gasoline,False,gasoline,1.5,suv,False,new,all,False,True,False,True,False,True,False,True,True,True,66.0,39456.08
-Skoda,Kodiaq,automatic,green,0,2019,gasoline,False,gasoline,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,39272.5
-Skoda,Kodiaq,automatic,blue,0,2019,gasoline,False,gasoline,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,39279.62
-Skoda,Kodiaq,automatic,white,0,2019,gasoline,False,gasoline,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,39954.47
-Ford,Edge,automatic,red,31000,2018,gasoline,False,gasoline,2.0,suv,False,owned,front,False,True,True,True,True,True,True,True,True,True,169.0,41000.0
-Toyota,Land Cruiser,automatic,black,101000,2016,diesel,False,diesel,2.8,suv,False,owned,all,False,True,True,True,True,True,False,True,True,True,64.0,38000.0
-Nissan,Murano,automatic,white,13000,2018,gasoline,False,gasoline,3.5,suv,False,owned,all,False,True,False,True,True,True,True,True,True,True,57.0,39000.0
-Skoda,Kodiaq,automatic,white,0,2019,gasoline,False,gasoline,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,38928.67
-Skoda,Kodiaq,automatic,brown,0,2019,gasoline,False,gasoline,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,39288.15
-BMW,X6,automatic,red,127000,2015,diesel,False,diesel,3.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,95.0,45500.0
-BMW,X6,automatic,black,53000,2015,gasoline,False,gasoline,3.0,coupe,False,owned,all,False,True,False,True,True,True,True,True,True,True,225.0,42000.0
-Land Rover,Discovery Sport,automatic,orange,13050,2018,diesel,False,diesel,2.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,20.0,46700.0
-Mercedes-Benz,GLC250,automatic,grey,26581,2016,gasoline,False,gasoline,2.0,suv,False,owned,all,False,True,True,True,False,True,False,True,True,True,95.0,47325.28
-Lexus,RX,automatic,blue,68000,2016,gasoline,False,gasoline,2.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,141.0,45293.56
+manufacturer_name,model_name,transmission,color,odometer_value,year_produced,engine_fuel,engine_has_gas,engine_type,engine_capacity,body_type,has_warranty,state,drivetrain,feature_0,feature_1,feature_2,feature_3,feature_4,feature_5,feature_6,feature_7,feature_8,feature_9,duration_listed,price_usd,name
+BMW,320,automatic,black,11000,2019,diesel,False,diesel,2.0,sedan,False,owned,all,True,False,False,False,False,False,False,False,False,False,56.0,42800.0,BMW 320
+Land Rover,Range Rover Sport,automatic,white,61000,2015,diesel,False,diesel,3.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,143.0,49950.0,Land Rover Range Rover Sport
+Fiat,500,automatic,orange,49000,2014,electric,False,electric,,hatchback,False,owned,front,False,False,False,True,False,True,False,True,False,True,11.0,16000.0,Fiat 500
+Skoda,Kodiaq,automatic,brown,0,2019,diesel,False,diesel,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,25.0,38829.08,Skoda Kodiaq
+Skoda,Kodiaq,automatic,blue,0,2019,diesel,False,diesel,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,41850.99,Skoda Kodiaq
+Skoda,Kodiaq,automatic,brown,0,2019,diesel,False,diesel,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,39178.6,Skoda Kodiaq
+Skoda,Kodiaq,automatic,silver,0,2019,diesel,False,diesel,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,38638.91,Skoda Kodiaq
+Volkswagen,Touareg,automatic,black,33000,2017,diesel,False,diesel,3.0,suv,True,owned,all,False,False,True,True,True,True,True,True,True,True,2.0,43999.0,Volkswagen Touareg
+Skoda,Kodiaq,automatic,other,0,2019,gasoline,False,gasoline,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,25.0,39272.5,Skoda Kodiaq
+BMW,X5,automatic,white,167000,2015,diesel,False,diesel,3.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,46.0,41500.0,BMW X5
+BMW,X6,automatic,red,50000,2015,diesel,False,diesel,3.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,25.0,49900.0,BMW X6
+Skoda,Kodiaq,automatic,other,0,2019,gasoline,False,gasoline,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,39288.15,Skoda Kodiaq
+BMW,320,automatic,blue,0,2019,diesel,False,diesel,2.0,sedan,True,new,all,False,False,False,True,False,True,False,False,True,True,11.0,47000.0,BMW 320
+BMW,530,automatic,white,80000,2017,gasoline,False,gasoline,2.0,sedan,False,owned,rear,False,False,True,True,False,True,True,True,True,True,18.0,39000.0,BMW 530
+Honda,CR-V,automatic,black,22000,2018,gasoline,False,gasoline,2.4,suv,True,owned,all,False,False,False,True,False,True,True,True,True,True,11.0,38000.0,Honda CR-V
+Skoda,Kodiaq,automatic,green,0,2019,diesel,False,diesel,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,38829.08,Skoda Kodiaq
+Mercedes-Benz,GLE350,automatic,black,122010,2015,diesel,False,diesel,3.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,97.0,43913.46,Mercedes-Benz GLE350
+Mercedes-Benz,GL400,automatic,grey,87000,2014,gasoline,False,gasoline,3.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,141.0,42000.0,Mercedes-Benz GL400
+Audi,A8,automatic,black,79146,2014,gasoline,False,gasoline,4.0,sedan,False,owned,all,False,True,False,True,True,True,True,True,True,True,30.0,39555.0,Audi A8
+BMW,X6,automatic,grey,59000,2015,diesel,False,diesel,3.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,89.0,50000.0,BMW X6
+Audi,Q7,automatic,brown,131939,2015,diesel,False,diesel,3.0,suv,False,owned,all,False,True,True,True,True,True,False,True,True,True,94.0,39900.0,Audi Q7
+BMW,i3,automatic,other,67000,2018,electric,False,electric,,liftback,False,owned,rear,False,True,True,True,True,True,True,True,True,True,57.0,39999.0,BMW i3
+Fiat,500,automatic,orange,27000,2013,electric,False,electric,,hatchback,False,owned,front,False,True,False,True,True,True,False,True,True,True,77.0,14900.0,Fiat 500
+BMW,X3,automatic,blue,0,2019,gasoline,False,gasoline,2.0,suv,False,new,all,True,False,False,False,False,False,False,False,False,False,40.0,47325.28,BMW X3
+Skoda,Kodiaq,automatic,white,0,2019,gasoline,False,gasoline,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,25.0,40353.79,Skoda Kodiaq
+Mercedes-Benz,GL63,automatic,white,160852,2013,gasoline,False,gasoline,5.5,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,32.0,47000.0,Mercedes-Benz GL63
+BMW,X5,automatic,grey,177234,2014,diesel,False,diesel,3.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,59.0,39900.0,BMW X5
+Nissan,Leaf,automatic,black,84500,2013,electric,False,electric,,hatchback,False,owned,front,False,True,False,True,False,True,True,True,True,True,58.0,15500.0,Nissan Leaf
+Jaguar,F-Pace,automatic,black,24000,2016,diesel,False,diesel,2.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,25.0,42000.0,Jaguar F-Pace
+Mercedes-Benz,GLE300,automatic,black,44513,2016,diesel,False,diesel,2.1,suv,False,owned,all,False,False,False,True,False,True,False,True,True,True,3.0,39900.0,Mercedes-Benz GLE300
+Mercedes-Benz,GLE350,automatic,black,65700,2015,gasoline,False,gasoline,3.5,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,18.0,42900.0,Mercedes-Benz GLE350
+Toyota,Land Cruiser,automatic,white,50100,2017,diesel,False,diesel,2.8,suv,True,owned,all,False,False,True,True,True,True,True,True,True,True,11.0,43500.0,Toyota Land Cruiser
+Nissan,Leaf,automatic,white,50000,2014,electric,False,electric,,hatchback,False,owned,front,False,True,False,False,False,True,False,True,True,False,18.0,12900.0,Nissan Leaf
+Skoda,Superb,automatic,blue,0,2019,gasoline,False,gasoline,2.0,sedan,True,new,front,True,False,False,False,False,False,False,False,False,False,0.0,44947.83,Skoda Superb
+Audi,A8,automatic,black,105428,2015,gasoline,False,gasoline,3.0,sedan,False,owned,all,False,True,True,True,True,True,True,True,True,True,34.0,37900.0,Audi A8
+Skoda,Kodiaq,automatic,green,0,2019,gasoline,False,gasoline,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,40039.83,Skoda Kodiaq
+Land Rover,Range Rover Sport,automatic,grey,130000,2013,gasoline,False,gasoline,3.0,suv,False,owned,all,True,False,False,False,False,False,False,False,False,False,81.0,42000.0,Land Rover Range Rover Sport
+BMW,X5,automatic,black,60000,2016,diesel,False,diesel,4.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,34.0,45000.0,BMW X5
+Jeep,Renegade,automatic,grey,0,2017,gasoline,False,gasoline,2.4,suv,False,new,all,False,False,False,True,True,True,False,False,True,True,839.0,40266.0,Jeep Renegade
+Skoda,Kodiaq,automatic,green,0,2019,gasoline,False,gasoline,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,39978.66,Skoda Kodiaq
+Mercedes-Benz,CLS400,automatic,grey,41000,2017,gasoline,False,gasoline,3.0,sedan,False,owned,all,False,True,True,True,True,True,True,True,True,True,42.0,48000.0,Mercedes-Benz CLS400
+Mini,Countryman,automatic,white,10770,2018,gasoline,False,gasoline,1.5,suv,False,owned,front,False,True,True,True,False,True,False,True,True,True,60.0,38504.07,Mini Countryman
+Skoda,Kodiaq,automatic,silver,0,2019,diesel,False,diesel,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,39228.4,Skoda Kodiaq
+Hyundai,Santa Fe,automatic,black,0,2018,diesel,False,diesel,2.2,suv,False,new,all,False,True,False,True,True,True,True,True,True,True,16.0,45954.66,Hyundai Santa Fe
+BMW,X5,automatic,black,125653,2014,diesel,False,diesel,3.0,suv,False,owned,all,False,True,False,True,True,True,True,True,True,True,115.0,39500.0,BMW X5
+Skoda,Kodiaq,automatic,brown,0,2019,diesel,False,diesel,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,3.0,38186.47,Skoda Kodiaq
+Mercedes-Benz,E63 AMG,automatic,white,60000,2013,gasoline,False,gasoline,5.5,sedan,False,owned,all,False,True,True,True,True,True,True,True,True,True,252.0,39900.0,Mercedes-Benz E63 AMG
+Mercedes-Benz,E400,automatic,black,54000,2016,gasoline,False,gasoline,3.0,sedan,False,owned,all,False,True,True,True,True,True,True,True,True,True,23.0,49000.0,Mercedes-Benz E400
+Skoda,Kodiaq,automatic,silver,0,2019,gasoline,False,gasoline,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,38223.47,Skoda Kodiaq
+Mercedes-Benz,V220,automatic,black,99000,2015,diesel,False,diesel,2.2,minibus,False,owned,all,False,True,True,True,True,True,True,True,True,True,142.0,48182.68,Mercedes-Benz V220
+Mazda,CX-9,automatic,silver,4600,2018,gasoline,False,gasoline,2.5,suv,False,owned,all,False,True,False,True,True,True,True,True,True,True,83.0,39500.0,Mazda CX-9
+BMW,X5,automatic,black,110306,2015,diesel,False,diesel,3.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,37.0,45900.0,BMW X5
+Land Rover,Range Rover Sport,automatic,white,91180,2013,diesel,False,diesel,3.0,suv,False,owned,all,True,False,False,False,False,False,False,False,False,False,46.0,47250.0,Land Rover Range Rover Sport
+Jeep,Wrangler,mechanical,grey,0,2016,diesel,False,diesel,2.8,suv,False,new,all,False,True,False,False,False,False,False,True,True,True,252.0,43000.0,Jeep Wrangler
+Mercedes-Benz,E220,automatic,black,67711,2017,diesel,False,diesel,2.0,sedan,False,owned,all,False,True,True,True,False,True,False,True,True,True,97.0,38410.51,Mercedes-Benz E220
+Mazda,CX-9,automatic,grey,14000,2018,gasoline,False,gasoline,2.5,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,123.0,39457.46,Mazda CX-9
+Porsche,Macan,automatic,black,81500,2016,diesel,False,diesel,3.0,suv,False,owned,all,False,True,True,True,True,True,False,True,True,True,355.0,47900.0,Porsche Macan
+BMW,X6,automatic,white,140000,2015,diesel,False,diesel,3.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,31.0,41750.0,BMW X6
+Mercedes-Benz,V250,automatic,grey,136900,2015,diesel,False,diesel,2.2,minivan,False,owned,all,False,True,False,True,True,True,True,True,True,True,89.0,45000.0,Mercedes-Benz V250
+Audi,Q7,automatic,brown,100000,2014,diesel,False,diesel,3.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,480.0,46000.0,Audi Q7
+Mercedes-Benz,GL500,automatic,silver,46000,2013,gasoline,False,gasoline,4.7,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,140.0,41850.0,Mercedes-Benz GL500
+Mini,Countryman,automatic,grey,0,2018,gasoline,False,gasoline,1.5,suv,False,new,all,False,True,False,True,False,True,False,True,True,True,66.0,39456.08,Mini Countryman
+Skoda,Kodiaq,automatic,green,0,2019,gasoline,False,gasoline,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,39272.5,Skoda Kodiaq
+Skoda,Kodiaq,automatic,blue,0,2019,gasoline,False,gasoline,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,39279.62,Skoda Kodiaq
+Skoda,Kodiaq,automatic,white,0,2019,gasoline,False,gasoline,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,39954.47,Skoda Kodiaq
+Ford,Edge,automatic,red,31000,2018,gasoline,False,gasoline,2.0,suv,False,owned,front,False,True,True,True,True,True,True,True,True,True,169.0,41000.0,Ford Edge
+Toyota,Land Cruiser,automatic,black,101000,2016,diesel,False,diesel,2.8,suv,False,owned,all,False,True,True,True,True,True,False,True,True,True,64.0,38000.0,Toyota Land Cruiser
+Nissan,Murano,automatic,white,13000,2018,gasoline,False,gasoline,3.5,suv,False,owned,all,False,True,False,True,True,True,True,True,True,True,57.0,39000.0,Nissan Murano
+Skoda,Kodiaq,automatic,white,0,2019,gasoline,False,gasoline,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,38928.67,Skoda Kodiaq
+Skoda,Kodiaq,automatic,brown,0,2019,gasoline,False,gasoline,2.0,suv,True,new,all,True,False,False,False,False,False,False,False,False,False,26.0,39288.15,Skoda Kodiaq
+BMW,X6,automatic,red,127000,2015,diesel,False,diesel,3.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,95.0,45500.0,BMW X6
+BMW,X6,automatic,black,53000,2015,gasoline,False,gasoline,3.0,coupe,False,owned,all,False,True,False,True,True,True,True,True,True,True,225.0,42000.0,BMW X6
+Land Rover,Discovery Sport,automatic,orange,13050,2018,diesel,False,diesel,2.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,20.0,46700.0,Land Rover Discovery Sport
+Mercedes-Benz,GLC250,automatic,grey,26581,2016,gasoline,False,gasoline,2.0,suv,False,owned,all,False,True,True,True,False,True,False,True,True,True,95.0,47325.28,Mercedes-Benz GLC250
+Lexus,RX,automatic,blue,68000,2016,gasoline,False,gasoline,2.0,suv,False,owned,all,False,True,True,True,True,True,True,True,True,True,141.0,45293.56,Lexus RX
