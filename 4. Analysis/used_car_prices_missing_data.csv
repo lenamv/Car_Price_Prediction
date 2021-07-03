@@ -1,0 +1,7 @@
+manufacturer_name,model_name,transmission,color,odometer_value,year_produced,engine_fuel,engine_has_gas,engine_type,engine_capacity,body_type,has_warranty,state,drivetrain,feature_0,feature_1,feature_2,feature_3,feature_4,feature_5,feature_6,feature_7,feature_8,feature_9,duration_listed,price_usd
+Fiat,500,automatic,orange,49000,2014,electric,False,electric,,hatchback,False,owned,front,False,False,False,True,False,True,False,True,False,True,11.0,16000.0
+BMW,i3,automatic,other,67000,2018,electric,False,electric,,liftback,False,owned,rear,False,True,True,True,True,True,True,True,True,True,57.0,39999.0
+Fiat,500,automatic,orange,27000,2013,electric,False,electric,,hatchback,False,owned,front,False,True,False,True,True,True,False,True,True,True,77.0,14900.0
+Nissan,Leaf,automatic,black,84500,2013,electric,False,electric,,hatchback,False,owned,front,False,True,False,True,False,True,True,True,True,True,58.0,15500.0
+Nissan,Leaf,automatic,white,50000,2014,electric,False,electric,,hatchback,False,owned,front,False,True,False,False,False,True,False,True,True,False,18.0,12900.0
+BMW,116,automatic,blue,160000,2016,diesel,False,diesel,1.5,hatchback,False,ow,,,,,,,,,,,,,
