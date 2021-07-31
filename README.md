@@ -16,5 +16,4 @@ A nonlinear regression model was built using Support Vector Regression (SVR) wit
 
 
 
-Data source: [https://github.com/edis/sds_challenges/tree/master/challenge_2/data]
-(https://github.com/edis/sds_challenges/tree/master/challenge_2/data).
+Data source: [https://github.com/edis/sds_challenges/tree/master/challenge_2/data](https://github.com/edis/sds_challenges/tree/master/challenge_2/data).
